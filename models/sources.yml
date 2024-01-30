@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: dbt
+    schema: raw 
+    tables: 
+      - name: lineitem_raw
+        identifier: LINEITEM
+
+      - name:  orders_raw
+        identifier: ORDERS
+      
+      - name: part_raw 
+        identifier: PART
