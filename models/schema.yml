@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+    - name: src_lineitem
+      description: "Source data model for LINEITEM data"
+
+    - name: src_orders
+      description: "Source data model for ORDERS data"
+
+    - name: src_part
+      description: "Source data model for PART data"
