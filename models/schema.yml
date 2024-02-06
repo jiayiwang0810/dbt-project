@@ -10,3 +10,6 @@ models:
 
     - name: src_part
       description: "Source data model for PART data"
+
+    - name: int_lineitem_agg
+      description: '{{ doc("int_lineitem_agg_desc") }}'
